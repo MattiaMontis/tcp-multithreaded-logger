@@ -33,6 +33,10 @@ Questo progetto affronta e risolve alcune classiche sfide della programmazione d
 
 Il progetto richiede un ambiente Linux/POSIX e il compilatore GCC.
 
+:
+
+💡 Testa subito nel browser: Non hai un ambiente Linux sottomano? Clicca sul pulsante verde Code in alto a destra, seleziona Codespaces e avvia una macchina virtuale gratuita. Potrai incollare i comandi di compilazione nel terminale integrato e testare client e server in pochi secondi.
+
 **1. Compilazione:**
 ```bash
 # Compila il server abilitando la libreria pthread
@@ -49,3 +53,5 @@ gcc client.c -o client -Wall -Wextra
 # Esempio: ./client 104 2500
 
 #### Nota: Eseguendo più volte il client, c'è un 30% di probabilità di innescare la simulazione del crash di rete (DISCONNECT).
+
+In alternativa compila digitando nel terminale make, per avviare i test apri un secondo terminale e digita make "tipoDiTest"
