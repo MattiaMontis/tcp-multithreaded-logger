@@ -53,5 +53,3 @@ gcc client.c -o client -Wall -Wextra
 # Esempio: ./client 104 2500
 
 #### Nota: Eseguendo più volte il client, c'è un 30% di probabilità di innescare la simulazione del crash di rete (DISCONNECT).
-
-In alternativa compila digitando nel terminale make, per avviare i test apri un secondo terminale e digita make "tipoDiTest"
